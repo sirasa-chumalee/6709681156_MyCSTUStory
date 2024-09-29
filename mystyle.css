@@ -208,3 +208,35 @@ div.gallery img {
     text-align: center;
     justify-content: center;
 }
+.text {
+    text-align:center;
+    margin: 3% 5% 0% 5%;
+}
+.text h1 {
+    font-family: 'Amatic SC', cursive;
+    color: #1f1f25;
+    height: 125px;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+}
+.y1, .y2, .y3, .y4 {
+    background-color: #fa879a48;
+    padding: 2% 5% 2% 5%;
+    border: 2px solid #8ab8a6;
+    border-radius: 15px;
+}
+.y1 {
+    float: left;
+    width: 40%;
+    margin: 0 3% 0 5%;
+}
+.y2 {
+    float: left;
+    width: 40%;
+    margin: 0 5% 0 3%;
+}
+.y1 h1, .y2 h1{
+    font-size: 60px;
+}
