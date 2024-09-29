@@ -231,7 +231,7 @@ div.gallery img {
     justify-content: space-between;
     gap: 20px;
 }
-.container div {
+.y1, .y2, .y3, .y4 {
     width: 45%;
     margin-bottom: 20px;
     border: 2px solid #8ab8a6;
@@ -245,4 +245,19 @@ div.gallery img {
     height: auto; 
     margin-bottom: 10px;
     border-radius: 10px;
+}
+.container .item {
+    width: 30%; 
+    padding: 20px; 
+    border-radius: 15px;
+    background-color: #fcc1cbc0;
+    text-align: center; 
+    border: 2px solid #8ab8a6;
+    height:auto;
+}
+.container h1 {
+    font-size: 70px;
+}
+.y1 h4 {
+    padding: 15px 0 3px 0;
 }
