@@ -221,22 +221,24 @@ div.gallery img {
     line-height: 90px;
     text-transform: inherit;
 }
-.y1, .y2, .y3, .y4 {
-    background-color: #fa879a48;
-    padding: 2% 5% 2% 5%;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.container div {
+    width: 45%;
+    margin-bottom: 20px;
     border: 2px solid #8ab8a6;
     border-radius: 15px;
+    background-color: #fa879a48;
+    padding: 2% 5% 2% 5%;
+    text-align: center;
 }
-.y1 {
-    float: left;
-    width: 40%;
-    margin: 0 3% 0 5%;
-}
-.y2 {
-    float: left;
-    width: 40%;
-    margin: 0 5% 0 3%;
-}
-.y1 h1, .y2 h1{
-    font-size: 60px;
+.container img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
